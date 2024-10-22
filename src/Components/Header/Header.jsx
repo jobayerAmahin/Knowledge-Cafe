@@ -1,9 +1,9 @@
-
+import profile from '../../../images/profile.png'
 const Header = () => {
     return (
-        <div className="flex justify-between w-11/12 mx-auto my-3">
+        <div className="flex justify-between items-center my-3 py-4 border-b-2">
             <h1 className="text-4xl font-bold">Knowledge Cafe</h1>
-            <img src={'../../../images/profile.png'} alt="" />
+            <img src={profile} alt="" />
         </div>
     );
 };

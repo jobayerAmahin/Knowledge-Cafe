@@ -8,13 +8,12 @@ const Blogs = () => {
             .then(res=>res.json())
             .then(data=>setBlogArray(data))
     },[])
-    console.log()
+    
     return (
-        <div>
-            <h2>Done</h2>
+        <div className="md:w-2/3">
             {
-                BlogArray.map((blog,idx)=>
-                    <Blog key={idx} blog={blog}></Blog>
+                BlogArray.map(blog=>
+                    <Blog key={blog.id} blog={blog}></Blog>
                 )
             }
         </div>

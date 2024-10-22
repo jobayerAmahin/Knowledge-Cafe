@@ -1,0 +1,73 @@
+[
+    {
+      "id": 1,
+      "cover": "https://i.ibb.co/pZQnZBf/author1.jpg",
+      "title": "Mysteries of the Deep",
+      "author": "Alice Smith",
+      "author_img": "https://example.com/alicesmith.jpg",
+      "posted_date": "2024-10-01",
+      "reading_time": "20 minutes",
+      "hashtags": ["#mystery", "#ocean", "#adventure"]
+    },
+    {
+      "id": 2,
+      "cover": "https://i.ibb.co/NYytMhc/author2.jpg",
+      "title": "Journey to the Stars",
+      "author": "Bob Johnson",
+      "author_img": "https://example.com/bobjohnson.jpg",
+      "posted_date": "2024-09-15",
+      "reading_time": "30 minutes",
+      "hashtags": ["#space", "#sciencefiction", "#exploration"]
+    },
+    {
+      "id": 3,
+      "cover": "https://i.ibb.co/Gc6LhL7/author3.jpg",
+      "title": "Secrets of the Ancient World",
+      "author": "Cara Lee",
+      "author_img": "https://i.ibb.co/Gc6LhL7/author3.jpg",
+      "posted_date": "2024-08-22",
+      "reading_time": "25 minutes",
+      "hashtags": ["#history", "#ancient", "#secrets"]
+    },
+    {
+      "id": 4,
+      "cover": "https://i.ibb.co/mqjNZ1w/author4.jpg",
+      "title": "The Last Enchanter",
+      "author": "David Brown",
+      "author_img": "https://example.com/davidbrown.jpg",
+      "posted_date": "2024-07-10",
+      "reading_time": "45 minutes",
+      "hashtags": ["#fantasy", "#magic", "#epic"]
+    },
+    {
+      "id": 5,
+      "cover": "https://i.ibb.co/s6Bt5K7/author5.jpg",
+      "title": "Culinary Delights",
+      "author": "Eva Green",
+      "author_img": "https://example.com/evagreen.jpg",
+      "posted_date": "2024-06-30",
+      "reading_time": "15 minutes",
+      "hashtags": ["#cooking", "#foodie", "#recipes"]
+    },
+    {
+      "id": 6,
+      "cover": "https://i.ibb.co/6Y2NWfk/author6.jpg",
+      "title": "Chasing Shadows",
+      "author": "Frank White",
+      "author_img": "https://example.com/frankwhite.jpg",
+      "posted_date": "2024-05-25",
+      "reading_time": "35 minutes",
+      "hashtags": ["#thriller", "#suspense", "#detective"]
+    },
+    {
+      "id": 7,
+      "cover": "https://i.ibb.co/rQhyQKq/author7.jpg",
+      "title": "Whispers in the Wind",
+      "author": "Grace Kim",
+      "author_img": "https://example.com/gracekim.jpg",
+      "posted_date": "2024-04-12",
+      "reading_time": "50 minutes",
+      "hashtags": ["#poetry", "#nature", "#inspiration"]
+    }
+]
+  

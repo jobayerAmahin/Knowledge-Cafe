@@ -7,18 +7,26 @@ import Header from './Components/Header/Header'
 
 function App() {
   const [BookMarkTitle,setBookMarkTitle]=useState([])
-  const handleBookMark=title=>{
-      const newTitle=[...BookMarkTitle,title]
+  const handleBookMark=blog=>{
+      const newTitle=[...BookMarkTitle,blog]
       setBookMarkTitle(newTitle)
   }
-  console.log(BookMarkTitle)
+
+  const [readingTime,setReadingTime]=useState(0)
+  const handleReadingTime=(timeValue,id)=>{
+    setReadingTime(readingTime+timeValue)
+    //Adding Bookmark Discard function
+    const remainingBookmarks=BookMarkTitle.filter(bookMark=>bookMark.id!==id)
+    setBookMarkTitle(remainingBookmarks)
+  }
+  console.log(readingTime)
   return (
     <>
         <div className='max-w-7xl mx-auto'>
           <Header></Header>
           <div className='md:flex'>
-            <Blogs handleBookMark={handleBookMark}></Blogs>
-            <Bookmark BookMarkTitle={BookMarkTitle}></Bookmark>
+            <Blogs handleReadingTime={handleReadingTime} handleBookMark={handleBookMark}></Blogs>
+            <Bookmark readingTime={readingTime} BookMarkTitle={BookMarkTitle}></Bookmark>
           </div>
         </div>
       

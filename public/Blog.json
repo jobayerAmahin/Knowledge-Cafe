@@ -6,7 +6,7 @@
       "author": "Alice Smith",
       "author_img": "https://example.com/alicesmith.jpg",
       "posted_date": "2024-10-01",
-      "reading_time": "20 minutes",
+      "reading_time": 20,
       "hashtags": ["#mystery", "#ocean", "#adventure"]
     },
     {
@@ -16,7 +16,7 @@
       "author": "Bob Johnson",
       "author_img": "https://example.com/bobjohnson.jpg",
       "posted_date": "2024-09-15",
-      "reading_time": "30 minutes",
+      "reading_time": 30,
       "hashtags": ["#space", "#sciencefiction", "#exploration"]
     },
     {
@@ -26,7 +26,7 @@
       "author": "Cara Lee",
       "author_img": "https://i.ibb.co/Gc6LhL7/author3.jpg",
       "posted_date": "2024-08-22",
-      "reading_time": "25 minutes",
+      "reading_time": 25,
       "hashtags": ["#history", "#ancient", "#secrets"]
     },
     {
@@ -36,7 +36,7 @@
       "author": "David Brown",
       "author_img": "https://example.com/davidbrown.jpg",
       "posted_date": "2024-07-10",
-      "reading_time": "45 minutes",
+      "reading_time": 45,
       "hashtags": ["#fantasy", "#magic", "#epic"]
     },
     {
@@ -46,7 +46,7 @@
       "author": "Eva Green",
       "author_img": "https://example.com/evagreen.jpg",
       "posted_date": "2024-06-30",
-      "reading_time": "15 minutes",
+      "reading_time": 35,
       "hashtags": ["#cooking", "#foodie", "#recipes"]
     },
     {
@@ -56,7 +56,7 @@
       "author": "Frank White",
       "author_img": "https://example.com/frankwhite.jpg",
       "posted_date": "2024-05-25",
-      "reading_time": "35 minutes",
+      "reading_time": 40,
       "hashtags": ["#thriller", "#suspense", "#detective"]
     },
     {
@@ -66,7 +66,7 @@
       "author": "Grace Kim",
       "author_img": "https://example.com/gracekim.jpg",
       "posted_date": "2024-04-12",
-      "reading_time": "50 minutes",
+      "reading_time": 10,
       "hashtags": ["#poetry", "#nature", "#inspiration"]
     }
 ]
